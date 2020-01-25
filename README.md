@@ -4,23 +4,23 @@
 ### Lessons:
 ----
 | Lesson №      | Name                                                   | Path          | TIMESTAMP  |
-|---------------|:-------------------------------------------------------|:-------------:|:----------:|
-| Lesson 1      | Introductin to C++, Hello, world                       | cpp/lesson1/  | 00.00.0000 |
-| Lesson 2      | Arrays, tasks                                          | cpp/lesson2/  | 00.00.0000 |
-| Lesson 3      | Types                                                  | cpp/lesson3/  | 00.00.0000 |
-| Lesson 4      | Math in C++                                            | cpp/lesson4/  | 00.00.0000 |
-| Lesson 5      | Math functions                                         | cpp/lesson5/  | 00.00.0000 |
-| Lesson 6      | Functions                                              | cpp/lesson6/  | 00.00.0000 |
-| Lesson 7      | Tasks, money converter                                 | cpp/lesson7/  | 00.00.0000 |
+|---------------|:-------------------------------------------------------|:--------------|:----------:|
+| Lesson 1      | Introductin to C++, Hello, world                       | [cpp/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson1)  | 00.00.0000 |
+| Lesson 2      | Arrays, tasks                                          | [cpp/lesson2/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson2)  | 00.00.0000 |
+| Lesson 3      | Types                                                  | [cpp/lesson3/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson3)  | 00.00.0000 |
+| Lesson 4      | Math in C++                                            | [cpp/lesson4/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson4)  | 00.00.0000 |
+| Lesson 5      | Math functions                                         | [cpp/lesson5/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson5)  | 00.00.0000 |
+| Lesson 6      | Functions                                              | [cpp/lesson6/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson6)  | 00.00.0000 |
+| Lesson 7      | Tasks, money converter                                 | [cpp/lesson7/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson7)  | 00.00.0000 |
 | Lesson 8      | Description not proveded                               | -             | 00.00.0000 |
-| Lesson 9      | Strictures in C++, compiling program as multiple files | cpp/lesson9/  | 00.00.0000 |
-| Lesson 10     | Boolalpha                                              | cpp/lesson10/ | 00.00.0000 |
-| Lesson 11     | Translate integers, binary, decimal, hexdecimal        | cpp/lesson11/ | 00.00.0000 |
-| Lesson 12     | Repeat arrays                                          | cpp/lesson12/ | 00.00.0000 |
-| Lesson 13     | 2D arrays                                              | cpp/lesson13/ | 00.00.0000 |
+| Lesson 9      | Strictures in C++, compiling program as multiple files | [cpp/lesson9/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson9)  | 00.00.0000 |
+| Lesson 10     | Boolalpha                                              | [cpp/lesson10/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson10) | 00.00.0000 |
+| Lesson 11     | Translate integers, binary, decimal, hexdecimal        | [cpp/lesson11/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson12) | 00.00.0000 |
+| Lesson 12     | Repeat arrays                                          | [cpp/lesson12/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson12) | 00.00.0000 |
+| Lesson 13     | 2D arrays                                              | [cpp/lesson13/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson13) | 00.00.0000 |
 | Lesson 14     | Description not proveded                               | -             | 00.00.0000 |
-| Lesson 15     | Exams                                                  | cpp/lesson15/ | 00.00.0000 |
-| Lesson 16     | Github                                                 | cpp/lesson16/ | 00.00.0000 |
+| Lesson 15     | Exams                                                  | [cpp/lesson15/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson15) | 00.00.0000 |
+| Lesson 16     | Github                                                 | [cpp/lesson16/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson16) | 00.00.0000 |
 ----
 ### Example: Binary Decoder (RU)
 ###### Path: cpp/lesson11/bin.cpp
@@ -191,7 +191,7 @@ int main (void)
 ### Projects:
 ----
 | Name                                 | Version | Path                        | TIMESTAMP  |
-|--------------------------------------|:-------:|:---------------------------:|:----------:|
+|--------------------------------------|:-------:|:----------------------------|:----------:|
 | Tic Tac Toe (The final project)      | 1.1     | [cpp/projects/tictactoe/1.1](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/tictactoe/1.1)  | 00.00.0000 |
 | Tic Tac Toe (The final project)      | 1.2     | [cpp/projects/tictactoe/1.2](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/tictactoe/1.2)  | 00.00.0000 |
 | Description not provided             | 0.0     | [cpp/projects/newproject](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/newproject)     | 00.00.0000 |
