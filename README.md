@@ -204,4 +204,4 @@ int main (void)
 > 4. [NakonechnyiMykhail/cpp1901](https://github.com/NakonechnyiMykhail/cpp1901/tree/master/lesson5)
 > 4. [Как работать с Github репозиториями | Никита Петров](http://nikita-petrov.com/drupal/kak-rabotat-s-github-repozitoriyami)
 
-![jarvis](https://jarvis.studio/wp-content/uploads/2018/11/cropped-logo.png)
+![jarvis](https://jarvis.studio/wp-content/uploads/2018/11/cropped-logo.png =250x)
