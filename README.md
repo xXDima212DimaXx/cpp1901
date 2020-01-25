@@ -198,11 +198,10 @@ int main (void)
 ----
 ### Useful links:
 ----
-> 1. First item
-> 2. Second item
-> 3. Third item
-> 4. Fourth item
+> 1. [Basic Syntax | Markdown Guide](markdownguide.org/basic-syntax/)
+> 2. [Как "гуглить" правильно и эффективно !](https://masterok.livejournal.com/550154.html)
+> 3. [Поиск в Google, или как правильно гуглить (искать) в интернете: 11 советов](https://yablyk.com/956265-kak-pravilno-guglit-v-internete-10-sovetov/)
+> 4. [NakonechnyiMykhail/cpp1901](https://github.com/NakonechnyiMykhail/cpp1901/tree/master/lesson5)
+> 4. [Как работать с Github репозиториями | Никита Петров](http://nikita-petrov.com/drupal/kak-rabotat-s-github-repozitoriyami)
 
-![Linux](https://d33wubrfki0l68.cloudfront.net/e7ed9fe4bafe46e275c807d63591f85f9ab246ba/e2d28/assets/images/tux.png)
-
-Site [jarvis](https://jarvis.studio).
+![jarvis](https://jarvis.studio/wp-content/uploads/2018/11/cropped-logo.png)
