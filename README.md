@@ -25,7 +25,7 @@
 ### Example: Binary Decoder (RU)
 ###### Path: cpp/lesson11/bin.cpp
 ----
-> ```cpp
+```cpp
 /*=====================================================
  * Перевод двоичного кода в десятичный методом сложения
  * Создал: xXDima212DimaXx
@@ -164,7 +164,7 @@ int convert(char val[]) {
 ### Example: Celsius to Fahrenheit (Exam task)
 ###### Path: cpp/lesson15/cf.cpp
 ----
-> ```cpp
+```cpp
 #include <iostream>
 #include <cstdlib>
 #include <limits>
