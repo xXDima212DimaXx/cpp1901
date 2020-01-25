@@ -161,23 +161,47 @@ int convert(char val[]) {
 }
 ```
 ----
+### Example: Celsius to Fahrenheit (Exam task)
+###### Path: cpp/lesson15/cf.cpp
+----
+```cpp
+#include <iostream>
+#include <cstdlib>
+#include <limits>
+
+using namespace std;
+
+int main (void)
+{
+    cout << "Celsius to Fahrenheit" << endl;
+    int N = 0;
+    int M = 0;
+    cout << "From: ";
+    cin >> N;
+    cout << "To: ";
+    cin >> M;
+
+    for (;N < M; N++) {
+        cout << N << "°C\t" << (N*1.8)+32 << "°F" << endl;
+    }
+    return 0;
+}
+```
+----
 ### Projects:
-{: .alert .alert-info .text-center}
 ----
 | Name                                 | Version | Path                        | TIMESTAMP  |
 |--------------------------------------|:-------:|:---------------------------:|:----------:|
-| Tic Tac Toe (The final project)      | 1.1     | cpp/projects/tictactoe/1.1  | 00.00.0000 |
-| Tic Tac Toe (The final project)      | 1.2     | cpp/projects/tictactoe/1.2  | 00.00.0000 |
-| Description not provided             | 0.0     | cpp/projects/newproject     | 00.00.0000 |
-
-I just love **bold text**.
-> mark
->
->> mark
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
+| Tic Tac Toe (The final project)      | 1.1     | [cpp/projects/tictactoe/1.1](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/tictactoe/1.1)  | 00.00.0000 |
+| Tic Tac Toe (The final project)      | 1.2     | [cpp/projects/tictactoe/1.2](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/tictactoe/1.2)  | 00.00.0000 |
+| Description not provided             | 0.0     | [cpp/projects/newproject](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/newproject)     | 00.00.0000 |
+----
+### Useful links:
+----
+> 1. First item
+> 2. Second item
+> 3. Third item
+> 4. Fourth item
 
 ![Linux](https://d33wubrfki0l68.cloudfront.net/e7ed9fe4bafe46e275c807d63591f85f9ab246ba/e2d28/assets/images/tux.png)
 
