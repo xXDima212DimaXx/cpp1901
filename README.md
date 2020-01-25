@@ -2,7 +2,6 @@
 ##### Lessons and projects
 ----
 ### Lessons:
-{: .alert .alert-info .text-center}
 ----
 | Lesson №      | Name                                                   | Path          | TIMESTAMP  |
 |---------------|:-------------------------------------------------------|:-------------:|:----------:|
@@ -169,7 +168,7 @@ int convert(char val[]) {
 |--------------------------------------|:-------:|:---------------------------:|:----------:|
 | Tic Tac Toe (The final project)      | 1.1     | cpp/projects/tictactoe/1.1  | 00.00.0000 |
 | Tic Tac Toe (The final project)      | 1.2     | cpp/projects/tictactoe/1.2  | 00.00.0000 |
-
+| Description not provided             | 0.0     | cpp/projects/newproject     | 00.00.0000 |
 
 I just love **bold text**.
 > mark
