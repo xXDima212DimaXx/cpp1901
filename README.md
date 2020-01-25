@@ -205,4 +205,3 @@ int main (void)
 > 4. [Как работать с Github репозиториями | Никита Петров](http://nikita-petrov.com/drupal/kak-rabotat-s-github-repozitoriyami)
 
 <img src="https://jarvis.studio/wp-content/uploads/2018/11/cropped-logo.png" alt="Jarvis" style="width:250px;"/>
-![Jarvis](https://jarvis.studio/wp-content/uploads/2018/11/cropped-logo.png){ width=250px }
