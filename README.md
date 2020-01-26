@@ -218,6 +218,8 @@ int main (void)
     git remote add <REMOTE_NAME> https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
     ```
 
+----
+
 - ### Upload files to github
   - #### Add files to repository
     ```
