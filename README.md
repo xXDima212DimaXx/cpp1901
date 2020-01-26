@@ -204,17 +204,17 @@ int main (void)
 ----
 - ### Configuration github
   - #### Configure git:
-    ```cpp
+    ```
     git config --global user.name "<USERNAME>"
     git config --global user.email "<EMAIL>"
     ```
 
   - #### Initialize git repository:
-    ```cpp
+    ```
     git init
     ```
   - #### Add repository remote:
-    ```cpp
+    ```
     git remote add <REMOTE_NAME> https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
     ```
 
@@ -222,23 +222,23 @@ int main (void)
 
 - ### Upload files to github
   - #### Add files to repository:
-    ```cpp
+    ```
     git add <FILENAME>
     ```
     - #### Add all files:
-      ```cpp
+      ```
       git add .
       ```
   - #### Commit changes:
-    ```cpp
+    ```
     git commit
     ```
     - #### Commit changes with short message:
-      ```cpp
+      ```
       git commit -m "message"
       ```
   - #### Upload to github (Push):
-    ```cpp
+    ```
     git push -u <REMOTE_NAME> <BRANCH_NAME>
     ```
 
