@@ -23,7 +23,6 @@
 | Lesson 14     | Description not provided                               | -             | 22.12.2019 |
 | Lesson 15     | Exams                                                  | [cpp/lesson15/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson15) | 29.12.2019 |
 | Lesson 16     | Github                                                 | [cpp/lesson16/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson16) | 19.01.2020 |
-| Lesson 17     | Github                                                 | [cpp/lesson17/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson17) | 26.01.2020 |
 ----
 ### Example: Binary Decoder (RU)
 ###### Path: cpp/lesson11/bin.cpp
@@ -212,40 +211,46 @@ int main (void)
 ### Useful commands:
 ----
 > #### Configure git
+
 ```
 git config --global user.name "<USERNAME>"
+
 git config --global user.email "<EMAIL>"
 ```
 
 > #### Initialize git repository
+
 ```
 git init
 ```
-
 > #### Add files to repository
+
 ```
 git add <FILENAME>
 ```
->> ***Add all files***
+> ***Add all files***
+
 ```
 git add .
 ```
-
 > #### Commit changes
+
 ```
 git commit
 ```
->> ***Commit changes with short message***
+> ***Commit changes with short message***
+
 ```
 git commit -m "message"
 ```
-
 > #### Add repository remote
+
 ```
 git remote add <REMOTE_NAME> https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
 ```
 
 > #### Upload to github (Push)
+
 ```
 git push -u <REMOTE_NAME> <BRANCH_NAME>
 ```
