@@ -270,9 +270,13 @@ const int INTVALUE = 4545
 // Namespace STD
 using namespace std;
 
-// Function prototype
+// Function prototypes
 
-void Myfunction1 ();
+void Myfunc1 ();
+
+int Myfunc2 (int inputvalue);
+
+char Myfunc3 ();
 
 /*******************************************************/
 
@@ -394,7 +398,7 @@ int main () {
 /*******************************************************/
 
 // Void unction
-void Myfunction1 () {
+void Myfunc1 () {
     // Your code here
     // Void function don't requirs return
 }
