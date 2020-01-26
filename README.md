@@ -262,7 +262,7 @@ int main (void)
 #include 'file2.hpp'
 
 // Execute this code once (e.g if you connect files, which contain same functions)
-#pragme once
+#pragma once
 
 // You can implement cinst here
 const int INTVALUE = 4545
@@ -397,7 +397,7 @@ int main () {
 
 /*******************************************************/
 
-// Void unction
+// Void function
 void Myfunc1 () {
     // Your code here
     // Void function don't requirs return
