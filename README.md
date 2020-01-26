@@ -198,6 +198,48 @@ int main (void)
 | Tic Tac Toe (The final project)      | 1.1     | [cpp/projects/tictactoe/1.1](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/tictactoe/1.1)  | 11.06.2019 |
 | Tic Tac Toe (The final project)      | 1.2     | [cpp/projects/tictactoe/1.2](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/tictactoe/1.2)  | 11.06.2019 |
 | Description not provided             | 0.0     | [cpp/projects/newproject](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/newproject)     | 00.00.0000 |
+
+----
+### Useful commands:
+----
+- ### Configuration github
+  - #### Configure git
+    ```
+    git config --global user.name "<USERNAME>"
+    git config --global user.email "<EMAIL>"
+    ```
+
+  - #### Initialize git repository
+    ```
+    git init
+    ```
+  - #### Add repository remote
+    ```
+    git remote add <REMOTE_NAME> https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
+    ```
+
+- ### Upload files to github
+  - #### Add files to repository
+    ```
+    git add <FILENAME>
+    ```
+    - Add all files
+    ```
+    git add .
+    ```
+  - #### Commit changes
+    ```
+    git commit
+    ```
+  - Commit changes with short message
+    ```
+    git commit -m "message"
+    ```
+  - #### Upload to github (Push)
+    ```
+    git push -u <REMOTE_NAME> <BRANCH_NAME>
+    ```
+
 ----
 ### Useful links:
 ----
@@ -208,40 +250,3 @@ int main (void)
 > 4. [Как работать с Github репозиториями | Никита Петров](http://nikita-petrov.com/drupal/kak-rabotat-s-github-repozitoriyami)
 
 > ![Teslasoft](https://jarvis.studio/projects/cpp1901/res/git_teslasoft_logo_min.png)
-----
-### Useful commands:
-----
-- #### Configure git
-```
-git config --global user.name "<USERNAME>"
-git config --global user.email "<EMAIL>"
-```
-
-- #### Initialize git repository
-  ```
-  git init
-  ```
-- #### Add files to repository
-  ```
-  git add <FILENAME>
-  ```
-  - Add all files
-    ```
-    git add .
-    ```
-- #### Commit changes
-  ```
-  git commit
-  ```
-  - Commit changes with short message
-    ```
-    git commit -m "message"
-    ```
-- #### Add repository remote
-  ```
-  git remote add <REMOTE_NAME> https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
-  ```
-- #### Upload to github (Push)
-  ```
-  git push -u <REMOTE_NAME> <BRANCH_NAME>
-  ```
