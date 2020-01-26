@@ -295,6 +295,28 @@ int main () {
 
     const int AGE = 18; // You can not modify this integer, because it is const
 
+    /*******************************************************
+     * Base operators:
+     *
+     *
+     * +, -, *, /, %
+     *
+     * Cmath operators
+     *
+     * pow(number, power);
+     * mod(number);
+     * cos(numver);
+     * sin(number);
+     * tg(number);
+     * ctg(number);
+     * etc...
+     ******************************************************/
+
+    // Random (Require <ctime> library)
+    srand(time(NULL));
+
+    rand() % 8 + 7; // Rand from 7 to 15
+
     /*******************************************************/
 
     // Input
