@@ -225,7 +225,7 @@ git config --global user.email "<EMAIL>"
   ```
   git add <FILENAME>
   ```
-  * Add all files
+  - Add all files
     ```
     git add .
     ```
@@ -233,10 +233,10 @@ git config --global user.email "<EMAIL>"
   ```
   git commit
   ```
-  * Commit changes with short message
-  ```
-  git commit -m "message"
-  ```
+  - Commit changes with short message
+    ```
+    git commit -m "message"
+    ```
 - #### Add repository remote
   ```
   git remote add <REMOTE_NAME> https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
