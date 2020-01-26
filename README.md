@@ -233,10 +233,10 @@ int main (void)
     ```
     git commit
     ```
-  - Commit changes with short message
-    ```
-    git commit -m "message"
-    ```
+    - Commit changes with short message
+      ```
+      git commit -m "message"
+      ```
   - #### Upload to github (Push)
     ```
     git push -u <REMOTE_NAME> <BRANCH_NAME>
