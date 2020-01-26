@@ -243,6 +243,101 @@ int main (void)
     ```
 
 ----
+### Base C++ operators:
+----
+
+```cpp
+// Base i/o library
+#include <iostream>
+
+// Other useful libraries
+#include <cstdlib>
+#include <limits>
+#include <cmath>
+#include <cstring>
+#include <ctime>
+
+//Connect your libraries and .h, .hpp files
+#include 'file1.h'
+#include 'file2.hpp'
+
+// Namespace STD
+using namespace std;
+
+// Function prototype
+
+void Myfunction1 ();
+
+// Main function
+int main () {
+    // Variables
+    int a = 0; // Integer
+    float b = 0.25; // Float
+    string c = "Hello, world!"; // String (require cstring library)
+    char d = 'a'; // Char
+    int arr[5] = {1, 2, 3, 4, 5}; // Integer array with 5 elements
+    char e = "Hello, world!"; // Char array
+
+    // Input
+    int x = 0;
+    cin >> x;
+
+    // Output
+    cout << "X = " << x << endl;
+
+    // Condition
+    if (a == 1) {
+        // True
+    } else if (a == 2) {
+        // First condition false, but second true
+    } else {
+        // False
+    }
+
+    // Loop for
+    for (int i = 0; i < 10; i++) {
+        // Repeat for 10 times
+    }
+
+    // Loop while
+    While (/* Condition */) {
+        // Repeats only if condition in the while () = true
+    }
+
+    // Loop do while
+    do {
+        // Repeats only if condition in the while () = true
+    } while (/* Condition */);
+
+    // Catch errors
+    try {
+        // Code, which may contain errors
+    } catch (e) {
+        // Alternative code here (e.g show error message)
+    }
+
+    // Return
+    return 0;
+
+    /*
+     * return 1; - Program finished with error or force closed
+     * return 0; - Program finished successfully
+     * return -1; - Program finished with unknown error
+     * return 2; - Program finished and needs restart
+     *
+     * You can override or add your own finish codes
+     */
+
+    cout << "Hello" << endl; // This string will be ignored because program finish after return
+}
+
+// Function
+void Myfunction1 () {
+    // Your code here
+}
+```
+
+----
 ### Useful links:
 ----
 > 1. [Basic Syntax | Markdown Guide](markdownguide.org/basic-syntax/)
