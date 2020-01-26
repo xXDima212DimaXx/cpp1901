@@ -203,41 +203,41 @@ int main (void)
 ### Useful commands:
 ----
 - ### Configuration github
-  - #### Configure git
+  - #### Configure git:
     ```
     git config --global user.name "<USERNAME>"
     git config --global user.email "<EMAIL>"
     ```
 
-  - #### Initialize git repository
+  - #### Initialize git repository:
     ```
     git init
     ```
-  - #### Add repository remote
+  - #### Add repository remote:
     ```
     git remote add <REMOTE_NAME> https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
     ```
 
-----
+  ----
 
 - ### Upload files to github
-  - #### Add files to repository
+  - #### Add files to repository:
     ```
     git add <FILENAME>
     ```
-    - Add all files
-    ```
-    git add .
-    ```
-  - #### Commit changes
+    - Add all files:
+      ```
+      git add .
+      ```
+  - #### Commit changes:
     ```
     git commit
     ```
-    - Commit changes with short message
+    - Commit changes with short message:
       ```
       git commit -m "message"
       ```
-  - #### Upload to github (Push)
+  - #### Upload to github (Push):
     ```
     git push -u <REMOTE_NAME> <BRANCH_NAME>
     ```
