@@ -261,6 +261,12 @@ int main (void)
 #include 'file1.h'
 #include 'file2.hpp'
 
+// Execute this code once (e.g if you connect files, which contain same functions)
+#pragme once
+
+// You can implement cinst here
+const int INTVALUE = 4545
+
 // Namespace STD
 using namespace std;
 
@@ -268,15 +274,28 @@ using namespace std;
 
 void Myfunction1 ();
 
+/*******************************************************/
+
 // Main function
 int main () {
+
+    /*******************************************************/
     // Variables
     int a = 0; // Integer
+
     float b = 0.25; // Float
+
     string c = "Hello, world!"; // String (require cstring library)
+
     char d = 'a'; // Char
+
     int arr[5] = {1, 2, 3, 4, 5}; // Integer array with 5 elements
+
     char e = "Hello, world!"; // Char array
+
+    const int AGE = 18; // You can not modify this integer, because it is const
+
+    /*******************************************************/
 
     // Input
     int x = 0;
@@ -284,6 +303,8 @@ int main () {
 
     // Output
     cout << "X = " << x << endl;
+
+    /*******************************************************/
 
     // Condition
     if (a == 1) {
@@ -293,6 +314,8 @@ int main () {
     } else {
         // False
     }
+
+    /*******************************************************/
 
     // Loop for
     for (int i = 0; i < 10; i++) {
@@ -309,12 +332,16 @@ int main () {
         // Repeats only if condition in the while () = true
     } while (/* Condition */);
 
+    /*******************************************************/
+
     // Catch errors
     try {
         // Code, which may contain errors
     } catch (e) {
         // Alternative code here (e.g show error message)
     }
+
+    /*******************************************************/
 
     // Return
     return 0;
@@ -328,8 +355,11 @@ int main () {
      * You can override or add your own finish codes
      */
 
+
     cout << "Hello" << endl; // This string will be ignored because program finish after return
 }
+
+/*******************************************************/
 
 // Function
 void Myfunction1 () {
