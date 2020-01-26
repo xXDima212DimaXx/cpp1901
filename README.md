@@ -1,4 +1,6 @@
 # cpp1901
+> ![C++](https://jarvis.studio/projects/cpp1901/res/git_cpp_logo_min.png)
+
 ##### Lessons and projects
 ----
 ### Lessons:
@@ -204,4 +206,4 @@ int main (void)
 > 4. [NakonechnyiMykhail/cpp1901](https://github.com/NakonechnyiMykhail/cpp1901/tree/master/lesson5)
 > 4. [Как работать с Github репозиториями | Никита Петров](http://nikita-petrov.com/drupal/kak-rabotat-s-github-repozitoriyami)
 
-<img src="https://jarvis.studio/wp-content/uploads/2018/11/cropped-logo.png" alt="Jarvis" style="width:250px;"/>
+> ![Teslasoft](https://jarvis.studio/projects/cpp1901/res/git_teslasoft_logo_min.png)
