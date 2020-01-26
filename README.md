@@ -295,11 +295,21 @@ int main () {
 
     const int AGE = 18; // You can not modify this integer, because it is const
 
+    short int f = 136732 //Integer without decimal
+
+    long int g = 13287387278 // Long integer
+
+    unsigned h = 4294967295 // This integer always more than 0
+
     /*******************************************************
      * Base operators:
      *
      *
-     * +, -, *, /, %
+     * +, -, *, /,
+     *
+     * Conditionals operators
+     *
+     * >, <, >=, <=, ||, &&
      *
      * Cmath operators
      *
@@ -383,9 +393,22 @@ int main () {
 
 /*******************************************************/
 
-// Function
+// Void unction
 void Myfunction1 () {
     // Your code here
+    // Void function don't requirs return
+}
+
+// Int function
+int Myfunc2 (int inputvalue) {
+    // Your code here
+    return int;
+}
+
+// Char function
+char MyFunc3 () {
+    // Your code here
+    return char;
 }
 ```
 
