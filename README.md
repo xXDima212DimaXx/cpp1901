@@ -1,4 +1,4 @@
-# cpp1901
+# C++ Course
 > ![C++](https://jarvis.studio/projects/cpp1901/res/git_cpp_logo_min.png)
 
 ##### Lessons and projects
@@ -7,23 +7,24 @@
 ----
 | Lesson №      | Name                                                   | Path          | TIMESTAMP  |
 |---------------|:-------------------------------------------------------|:--------------|:----------:|
-| Lesson 1      | Introduction to C++, Hello, world                      | [cpp/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson1)  | 22.09.2019 |
-| Lesson 2      | Arrays, tasks                                          | [cpp/lesson2/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson2)  | 29.09.2019 |
-| Lesson 3      | Types of data                                          | [cpp/lesson3/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson3)  | 06.10.2019 |
-| Lesson 4      | Math in C++                                            | [cpp/lesson4/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson4)  | 13.10.2019 |
-| Lesson 5      | Math functions                                         | [cpp/lesson5/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson5)  | 20.10.2019 |
-| Lesson 6      | C++ Functions                                          | [cpp/lesson6/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson6)  | 27.10.2019 |
-| Lesson 7      | Tasks, Money converter                                 | [cpp/lesson7/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson7)  | 03.11.2019 |
+| Lesson 1      | Introduction to C++, Hello, world                      | [cpp1901/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson1)  | 22.09.2019 |
+| Lesson 2      | Arrays, tasks                                          | [cpp1901/lesson2/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson2)  | 29.09.2019 |
+| Lesson 3      | Types of data                                          | [cpp1901/lesson3/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson3)  | 06.10.2019 |
+| Lesson 4      | Math in C++                                            | [cpp1901/lesson4/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson4)  | 13.10.2019 |
+| Lesson 5      | Math functions                                         | [cpp1901/lesson5/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson5)  | 20.10.2019 |
+| Lesson 6      | C++ Functions                                          | [cpp1901/lesson6/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson6)  | 27.10.2019 |
+| Lesson 7      | Tasks, Money converter                                 | [cpp1901/lesson7/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson7)  | 03.11.2019 |
 | Lesson 8      | Description not provided                               | -             | 10.11.2019 |
-| Lesson 9      | Strictures in C++, compiling program as multiple files | [cpp/lesson9/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson9)  | 17.11.2019 |
-| Lesson 10     | Boolalpha                                              | [cpp/lesson10/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson10) | 24.11.2019 |
-| Lesson 11     | Translate integers, binary, decimal, hexdecimal        | [cpp/lesson11/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson12) | 01.12.2019 |
-| Lesson 12     | Repeat arrays                                          | [cpp/lesson12/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson12) | 08.12.2019 |
-| Lesson 13     | 2D arrays                                              | [cpp/lesson13/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson13) | 15.12.2019 |
+| Lesson 9      | Strictures in C++, compiling program as multiple files | [cpp1901/lesson9/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson9)  | 17.11.2019 |
+| Lesson 10     | Boolalpha                                              | [cpp1901/lesson10/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson10) | 24.11.2019 |
+| Lesson 11     | Translate integers, binary, decimal, hexdecimal        | [cpp1901/lesson11/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson12) | 01.12.2019 |
+| Lesson 12     | Repeat arrays                                          | [cpp1901/lesson12/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson12) | 08.12.2019 |
+| Lesson 13     | 2D arrays                                              | [cpp1901/lesson13/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson13) | 15.12.2019 |
 | Lesson 14     | Description not provided                               | -             | 22.12.2019 |
-| Lesson 15     | Exams                                                  | [cpp/lesson15/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson15) | 29.12.2019 |
-| Lesson 16     | Github and Markdown                                    | [cpp/lesson16/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson16) | 19.01.2020 |
-| Lesson 17     | Github and Markdown                                    | [cpp/lesson17/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson17) | 26.01.2020 |
+| Lesson 15     | Exams                                                  | [cpp1901/lesson15/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson15) | 29.12.2019 |
+| Lesson 16     | Github and Markdown                                    | [cpp1901/lesson16/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson16) | 19.01.2020 |
+| Lesson 17     | Github and Markdown                                    | [cpp1901/lesson17/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson17) | 26.01.2020 |
+
 ----
 ### Example: Binary Decoder (RU)
 ###### Path: cpp/lesson11/bin.cpp
@@ -195,10 +196,27 @@ int main (void)
 ----
 | Name                                 | Version | Path                        | TIMESTAMP  |
 |--------------------------------------|:-------:|:----------------------------|:----------:|
-| Tic Tac Toe (The final project)      | 1.1     | [cpp/projects/tictactoe/1.1](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/tictactoe/1.1)  | 11.06.2019 |
-| Tic Tac Toe (The final project)      | 1.2     | [cpp/projects/tictactoe/1.2](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/tictactoe/1.2)  | 11.06.2019 |
-| Description not provided             | 0.0     | [cpp/projects/newproject](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/newproject)     | 00.00.0000 |
+| Tic Tac Toe (The final project)      | 1.1     | [cpp1901/projects/tictactoe/1.1](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/tictactoe/1.1)  | 11.06.2019 |
+| Tic Tac Toe (The final project)      | 1.2     | [cpp1901/projects/tictactoe/1.2](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/tictactoe/1.2)  | 11.06.2019 |
+| Description not provided             | 0.0     | [cpp1901/projects/newproject](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/newproject)     | 00.00.0000 |
 
+----
+### Old lessons (cs50):
+----
+| Lesson №      | Path          |
+|---------------|:--------------|
+| Lesson 0      | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson0)  |
+| Lesson 1      | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson1)  |
+| Lesson 7      | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson7)  |
+| Lesson 9      | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson9)  |
+| Lesson 14     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson14) |
+| Lesson 15     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson15) |
+| Lesson 17     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson17) |
+| Lesson 18     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson18) |
+| Lesson 19     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson19) |
+| Lesson 24     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson24) |
+| Lesson 25     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson25) |
+| Lesson X      | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/tlesson)  |
 ----
 ### Useful Github commands:
 ----
