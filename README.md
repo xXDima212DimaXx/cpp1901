@@ -398,19 +398,20 @@ int main () {
      *               Base operators and output:
      *
      *
+     * Base operators:
      * +, -, *, /, %
+     *
      *
      * i++ ............. i + 1
      * i-- ............. i - 1
      * i += 2 ...... i = i + 2
      * i -= 5 ...... i = i - 5
      *
-     * Conditionals operators
-     *
+     * Conditionals operators:
      * >, <, >=, <=, ||, &&
      *
-     * Cmath operators
      *
+     * Cmath operators
      * pow(number, power);
      * mod(number);
      * cos(numver);
@@ -422,14 +423,15 @@ int main () {
      * \n = endl; = new linw
      * \t = tab
      *
+     *
+     * Boolalpha and noboolalpha
      * bool val = true;
      * cout << boolalpha << val << endl; // Output true instead 1
      * cout << noboolalpha << val << endl; // Output 1 instead true
      *
      * STD::
-     *
      * If you don't implement 'using namespace std', you must add std:: before std commands,
-     * because you can use other namespaces
+     * because you can use other namespaces (e,g std::cout << "Hello!" << std::endl;)
      *
      ******************************************************/
 
