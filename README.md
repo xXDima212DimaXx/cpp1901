@@ -205,18 +205,18 @@ int main (void)
 ----
 | Lesson №      | Path          |
 |---------------|:--------------|
-| Lesson 0      | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson0)  |
+| Lesson 0      | [cpp1901/cppold/lesson0/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson0)  |
 | Lesson 1      | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson1)  |
-| Lesson 7      | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson7)  |
-| Lesson 9      | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson9)  |
-| Lesson 14     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson14) |
-| Lesson 15     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson15) |
-| Lesson 17     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson17) |
-| Lesson 18     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson18) |
-| Lesson 19     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson19) |
-| Lesson 24     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson24) |
-| Lesson 25     | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson25) |
-| Lesson X      | [cpp1901/cppold/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/tlesson)  |
+| Lesson 7      | [cpp1901/cppold/lesson7/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson7)  |
+| Lesson 9      | [cpp1901/cppold/lesson9/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson9)  |
+| Lesson 14     | [cpp1901/cppold/lesson14/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson14) |
+| Lesson 15     | [cpp1901/cppold/lesson15/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson15) |
+| Lesson 17     | [cpp1901/cppold/lesson17/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson17) |
+| Lesson 18     | [cpp1901/cppold/lesson18/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson18) |
+| Lesson 19     | [cpp1901/cppold/lesson19/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson19) |
+| Lesson 24     | [cpp1901/cppold/lesson24/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson24) |
+| Lesson 25     | [cpp1901/cppold/lesson25/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/lesson25) |
+| Unknown       | [cpp1901/cppold/tlesson/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/cppold/tlesson)  |
 ----
 ### Useful Github commands:
 ----
