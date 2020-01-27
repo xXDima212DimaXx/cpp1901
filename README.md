@@ -295,13 +295,13 @@ int main (void)
       ```
     - #### Go to the upper folder:
       ```
-      cd ~
+      cd ..
       ```
-  - #### Show content in folder:
+  - #### Show content of folder:
     ```
     ls
     ```
-    - #### Show detailed list of content in folder:
+    - #### Show detailed list of content of folder:
       ```
       ls -la
       ```
