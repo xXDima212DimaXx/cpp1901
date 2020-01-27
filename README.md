@@ -242,8 +242,59 @@ int main (void)
     git push -u <REMOTE_NAME> <BRANCH_NAME>
     ```
 
+- ### Download files to github
+  - #### Download:
+    ```
+    git clone https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
+    ```
+
 ----
-### Base C++ operators:
+
+- ### Commands to process files and folders
+  - #### Create a file:
+    ```
+    touch <FILENAME>
+    ```
+  - #### Delete a file:
+    ```
+    rm <FILENAME>
+    ```
+    - #### If folder has subfolders use this command:
+      ```
+      rm -rf <FILENAME>
+      ```
+
+  - #### Write to file:
+    ```
+    echo "Some text here" <FILENAME>
+    ```
+  - #### Show file content:
+    ```
+    cat <FILENAME>
+    ```
+  - #### Go to folder:
+    ```
+    cd <PATH_TO_FOLDER>
+    ```
+    - #### Go to home folder:
+      ```
+      cd ~
+      ```
+    - #### Go to upper folder:
+      ```
+      cd ~
+      ```
+  - #### Show folder content:
+    ```
+    ls
+    ```
+    - #### Show detailed list of content in folder:
+      ```
+      ls -la
+      ```
+
+----
+### Base C++:
 ----
 
 ```cpp
