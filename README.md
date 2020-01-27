@@ -268,10 +268,10 @@ int main (void)
     ```
     rm <FILENAME>
     ```
-    - #### Delete a folder:
-      ```
-      rmdir <FOLDERNAME>
-      ```
+  - #### Delete a folder:
+    ```
+    rmdir <FOLDERNAME>
+    ```
     - #### If folder has subfolders use this command:
       ```
       rm -rf <FILENAME>/<FOLDERNAME>
