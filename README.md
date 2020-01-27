@@ -202,7 +202,7 @@ int main (void)
 ----
 ### Useful commands:
 ----
-- ### Configuration github
+- ### Configure Github:
   - #### Configure git:
     ```
     git config --global user.name "<USERNAME>"
@@ -220,7 +220,7 @@ int main (void)
 
   ----
 
-- ### Upload files to github
+- ### Upload files from Github:
   - #### Add files to repository:
     ```
     git add <FILENAME>
@@ -250,7 +250,7 @@ int main (void)
 
 ----
 
-- ### Commands to process files and folders
+- ### Commands to process files and folders:
   - #### Create a file:
     ```
     touch <FILENAME>
