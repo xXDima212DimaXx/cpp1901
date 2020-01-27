@@ -7,13 +7,13 @@
 ----
 | Lesson №      | Name                                                   | Path          | TIMESTAMP  |
 |---------------|:-------------------------------------------------------|:--------------|:----------:|
-| Lesson 1      | Introductin to C++, Hello, world                       | [cpp/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson1)  | 22.09.2019 |
+| Lesson 1      | Introduction to C++, Hello, world                      | [cpp/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson1)  | 22.09.2019 |
 | Lesson 2      | Arrays, tasks                                          | [cpp/lesson2/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson2)  | 29.09.2019 |
-| Lesson 3      | Types                                                  | [cpp/lesson3/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson3)  | 06.10.2019 |
+| Lesson 3      | Types of data                                          | [cpp/lesson3/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson3)  | 06.10.2019 |
 | Lesson 4      | Math in C++                                            | [cpp/lesson4/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson4)  | 13.10.2019 |
 | Lesson 5      | Math functions                                         | [cpp/lesson5/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson5)  | 20.10.2019 |
-| Lesson 6      | Functions                                              | [cpp/lesson6/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson6)  | 27.10.2019 |
-| Lesson 7      | Tasks, money converter                                 | [cpp/lesson7/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson7)  | 03.11.2019 |
+| Lesson 6      | C++ Functions                                          | [cpp/lesson6/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson6)  | 27.10.2019 |
+| Lesson 7      | Tasks, Money converter                                 | [cpp/lesson7/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson7)  | 03.11.2019 |
 | Lesson 8      | Description not provided                               | -             | 10.11.2019 |
 | Lesson 9      | Strictures in C++, compiling program as multiple files | [cpp/lesson9/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson9)  | 17.11.2019 |
 | Lesson 10     | Boolalpha                                              | [cpp/lesson10/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson10) | 24.11.2019 |
@@ -22,8 +22,8 @@
 | Lesson 13     | 2D arrays                                              | [cpp/lesson13/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson13) | 15.12.2019 |
 | Lesson 14     | Description not provided                               | -             | 22.12.2019 |
 | Lesson 15     | Exams                                                  | [cpp/lesson15/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson15) | 29.12.2019 |
-| Lesson 16     | Github                                                 | [cpp/lesson16/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson16) | 19.01.2020 |
-| Lesson 17     | Github                                                 | [cpp/lesson17/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson17) | 26.01.2020 |
+| Lesson 16     | Github and Markdown                                    | [cpp/lesson16/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson16) | 19.01.2020 |
+| Lesson 17     | Github and Markdown                                    | [cpp/lesson17/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson17) | 26.01.2020 |
 ----
 ### Example: Binary Decoder (RU)
 ###### Path: cpp/lesson11/bin.cpp
@@ -377,7 +377,7 @@ int main () {
 
 
     /*******************************************************
-     *               Base operators:
+     *               Base operators and output:
      *
      *
      * +, -, *, /, %
@@ -386,7 +386,6 @@ int main () {
      * i-- ............. i - 1
      * i += 2 ...... i = i + 2
      * i -= 5 ...... i = i - 5
-     *
      *
      * Conditionals operators
      *
@@ -404,6 +403,15 @@ int main () {
      *
      * \n = endl; = new linw
      * \t = tab
+     *
+     * bool val = true;
+     * cout << boolalpha << val << endl; // Output true instead 1
+     * cout << noboolalpha << val << endl; // Output 1 instead true
+     *
+     * STD::
+     *
+     * If you don't implement 'using namespace std', you must add std:: before std commands,
+     * because you can use other namespaces
      *
      ******************************************************/
 
