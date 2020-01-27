@@ -272,19 +272,19 @@ int main (void)
     ```
     cat <FILENAME>
     ```
-  - #### Go to folder:
+  - #### Go to the folder:
     ```
     cd <PATH_TO_FOLDER>
     ```
-    - #### Go to home folder:
+    - #### Go to the home folder:
       ```
       cd ~
       ```
-    - #### Go to upper folder:
+    - #### Go to the upper folder:
       ```
       cd ~
       ```
-  - #### Show folder content:
+  - #### Show content in folder:
     ```
     ls
     ```
