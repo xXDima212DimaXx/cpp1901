@@ -202,6 +202,7 @@ int main (void)
 ----
 ### Useful commands:
 ----
+
 - ### Configure Github:
   - #### Configure git:
     ```
@@ -241,6 +242,9 @@ int main (void)
     ```
     git push -u <REMOTE_NAME> <BRANCH_NAME>
     ```
+
+  ----
+
 
 - ### Download files from github
   - #### Download:
