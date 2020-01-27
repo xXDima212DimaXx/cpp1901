@@ -334,7 +334,7 @@ int main (void)
 #pragma once
 
 // You can implement cinst here
-const int INTVALUE = 4545
+const int INTVALUE = 4545;
 
 // Namespace STD
 using namespace std;
@@ -433,8 +433,11 @@ int main () {
     // Output
     cout << "X = " << x << endl;
 
-    // *VARIABLE - show address in RAM
+    // *VARIABLE - show address in RAM (link)
     cout << *x << endl;
+
+    // &VARIABLE - show normal value (unlink if linked, use with *VARIABLE)
+    cout << &x << endl;
 
 
 
@@ -549,6 +552,159 @@ int Myfunc2 (int inputvalue) {
 char MyFunc3 () {
     // Your code here
     return char;
+}
+```
+
+----
+### Other useful codes:
+----
+
+#### Bubble sort:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+const int SIZE = 20;
+
+void buble(int mas[], int SIZE);
+
+int main()
+{
+    int mas[] = {5, 4, 3, 2, 1, 6, 3, 9, 10, 22, 55, 64, 17, 26, 81, 678, 73, 97, 110, 22};
+    for(int i = 0; i < SIZE; i++)
+    {
+        cout << mas[i] << " ";
+    }
+    cout << endl;
+    buble(mas, SIZE);
+    for(int i = 0; i < SIZE; i++)
+    {
+        cout << mas[i] << " ";
+    }
+    cout << endl;
+}
+
+void buble(int mas[], int SIZE)
+{
+    for(int i = 0; i < SIZE; i++)
+    {
+        for(int a = i+1; a < SIZE; a++)
+        {
+            if(mas[i] > mas[a])
+            {
+                int x = mas[i];
+                mas[i] = mas[a];
+                mas[a] = x;
+            }
+        }
+    }
+}
+```
+
+#### Select sort:
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+void selectionSort (int arr[], int n)
+{
+    int min;
+    for (int k = 0; k < n-1; k++)
+    {
+        min = k;
+        for (int j = k + 1; j < n; j++)
+        {
+            if (arr[j] < arr[min]) min = j;
+        }
+        swap(&arr[min], &arr[k]);
+    }
+}
+
+void printArray(int arr[], int size) {
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+    int arr[] = {5, 2, 42, 6, 1, 3, 2};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    selectionSort(arr, n);
+    printArray(arr, n);
+    return 0;
+}
+```
+
+#### Fibonachi:
+
+```cpp
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+int Fib(int i)
+{
+    unsigned long f1 = 0;
+    unsigned long f2 = 1;
+    unsigned long fn;
+    ofstream file ("fib.txt");
+    if (file.is_open())
+    {
+        if (i < 1)
+        {
+            return 0;
+        }
+        if (i == 1)
+        {
+            file << "0" << endl;
+            file << "1" << endl;
+            cout << "0" << endl;
+            cout << "1" << endl;
+        }
+        if (i > 1)
+        {
+            file << "0" << endl;
+            file << "1" << endl;
+            cout << "0" << endl;
+            cout << "1" << endl;
+            for (int j = 1; j < i; j++)
+            {
+                fn = f1 + f2;
+                file << fn << endl;
+                cout << fn << endl;
+                f1 = f2;
+                f2 = fn;
+            }
+
+        }
+        file.close();
+    }
+    else cout << "Something went wrong";
+
+    return 0;
+}
+
+int main()
+{
+    int input;
+    cout << "Enter number: ";
+    cin >> input;
+
+    Fib(input);
+    return 0;
 }
 ```
 
