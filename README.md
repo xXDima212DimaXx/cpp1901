@@ -401,7 +401,8 @@ int main () {
 
 
     // Write to file (Require <fstream> library)
-    ofstream file ("file");
+    ofstream file;
+    file.open("file");
     if (file.is_open())
     {
         file << "Some text here..." << endl;
@@ -413,11 +414,14 @@ int main () {
 
     // Read file (Require <fstream> library)
     string data;
-    ifstream infile;
-    infile.open("afile.dat");
-
-    infile >> data;
-    cout << data << endl;
+    ifstream file;
+    file.open("file");
+    if (file.is_open())
+    {
+        file >> data;
+        cout << data << endl;
+        file.close();
+    } else cout << "unable to open file";
 
 
 
@@ -476,6 +480,7 @@ char MyFunc3 () {
 > 2. [Как "гуглить" правильно и эффективно !](https://masterok.livejournal.com/550154.html)
 > 3. [Поиск в Google, или как правильно гуглить (искать) в интернете: 11 советов](https://yablyk.com/956265-kak-pravilno-guglit-v-internete-10-sovetov/)
 > 4. [NakonechnyiMykhail/cpp1901](https://github.com/NakonechnyiMykhail/cpp1901/tree/master/lesson5)
-> 4. [Как работать с Github репозиториями | Никита Петров](http://nikita-petrov.com/drupal/kak-rabotat-s-github-repozitoriyami)
+> 5. [Как работать с Github репозиториями | Никита Петров](http://nikita-petrov.com/drupal/kak-rabotat-s-github-repozitoriyami)
+> 6. [cplusplus.com - C++ Documentation](http://www.cplusplus.com/reference/cstdlib/)
 
 > ![Teslasoft](https://jarvis.studio/projects/cpp1901/res/git_teslasoft_logo_min.png)
