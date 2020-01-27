@@ -251,7 +251,7 @@ int main (void)
 #include <iostream>
 
 // Other useful libraries
-#include <cstdlib> // C STD library
+#include <cstdlib> // C Standard General Utilities Library
 #include <limits> // Numeric limits
 #include <cmath> // Math library
 #include <cstring> // String type library
