@@ -256,6 +256,7 @@ int main (void)
 #include <cmath>
 #include <cstring>
 #include <ctime>
+#include <fstream>
 
 //Connect your libraries and .h, .hpp files
 #include 'file1.h'
@@ -278,12 +279,11 @@ int Myfunc2 (int inputvalue);
 
 char Myfunc3 ();
 
-/*******************************************************/
+
 
 // Main function
 int main () {
 
-    /*******************************************************/
     // Variables
     int a = 0; // Integer
 
@@ -299,17 +299,26 @@ int main () {
 
     const int AGE = 18; // You can not modify this integer, because it is const
 
-    short int f = 136732 //Integer without decimal
+    short int f = 136732; //Integer without decimal
 
-    long int g = 13287387278 // Long integer
+    long int g = 13287387278; // Long integer
 
-    unsigned h = 4294967295 // This integer always more than 0
+    unsigned h = 4294967295; // This integer always more than 0
+
+    bool j = true; // Boolean
+
 
     /*******************************************************
-     * Base operators:
+     *               Base operators:
      *
      *
-     * +, -, *, /,
+     * +, -, *, /, %
+     *
+     * i++ ............. i + 1
+     * i-- ............. i - 1
+     * i += 2 ...... i = i + 2
+     * i -= 5 ...... i = i - 5
+     *
      *
      * Conditionals operators
      *
@@ -324,6 +333,10 @@ int main () {
      * tg(number);
      * ctg(number);
      * etc...
+     *
+     * \n = endl; = new linw
+     * \t = tab
+     *
      ******************************************************/
 
     // Random (Require <ctime> library)
@@ -331,7 +344,8 @@ int main () {
 
     rand() % 8 + 7; // Rand from 7 to 15
 
-    /*******************************************************/
+
+
 
     // Input
     int x = 0;
@@ -340,9 +354,13 @@ int main () {
     // Output
     cout << "X = " << x << endl;
 
-    /*******************************************************/
+    // *VARIABLE - show address in RAM
+    cout << *x << endl;
 
-    // Condition
+
+
+
+    // Conditions
     if (a == 1) {
         // True
     } else if (a == 2) {
@@ -351,7 +369,8 @@ int main () {
         // False
     }
 
-    /*******************************************************/
+
+
 
     // Loop for
     for (int i = 0; i < 10; i++) {
@@ -368,7 +387,8 @@ int main () {
         // Repeats only if condition in the while () = true
     } while (/* Condition */);
 
-    /*******************************************************/
+
+
 
     // Catch errors
     try {
@@ -377,7 +397,39 @@ int main () {
         // Alternative code here (e.g show error message)
     }
 
-    /*******************************************************/
+
+
+
+    // Write to file (Require <fstream> library)
+    ofstream file ("file");
+    if (file.is_open())
+    {
+        file << "Some text here..." << endl;
+        file.close();
+    } else cout << "unable to open file";
+
+
+
+
+    // Read file (Require <fstream> library)
+    string data;
+    ifstream infile;
+    infile.open("afile.dat");
+
+    infile >> data;
+    cout << data << endl;
+
+
+
+
+    // Execute system command
+    system("command");
+
+    // Clear terminal Linux
+    system("clear");
+
+    // Clear terminal Windows
+    system("CLS");
 
     // Return
     return 0;
@@ -395,7 +447,8 @@ int main () {
     cout << "Hello" << endl; // This string will be ignored because program finish after return
 }
 
-/*******************************************************/
+
+
 
 // Void function
 void Myfunc1 () {
