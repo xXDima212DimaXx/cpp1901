@@ -220,7 +220,7 @@ int main (void)
 
   ----
 
-- ### Upload files from Github:
+- ### Upload files to Github:
   - #### Add files to repository:
     ```
     git add <FILENAME>
@@ -242,7 +242,7 @@ int main (void)
     git push -u <REMOTE_NAME> <BRANCH_NAME>
     ```
 
-- ### Download files to github
+- ### Download files from github
   - #### Download:
     ```
     git clone https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
