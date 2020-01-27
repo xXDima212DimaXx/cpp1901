@@ -450,6 +450,19 @@ int main () {
     int x = 0;
     cin >> x;
 
+    // Fix linux bug with incorrect input (Require <limits> library)
+    if ((cin.fail() == 0)) {
+        // Correct data type
+    } else {
+        // Incorrect data type
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        // Show error
+        cout << "Incorect type of data. Value \"" << value << "\" not allowed. You can use only 0 or 1!" << endl;
+        return 1; // Finish program with error
+    }
+
     // Output
     cout << "X = " << x << endl;
 
