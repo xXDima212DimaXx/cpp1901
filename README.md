@@ -200,7 +200,7 @@ int main (void)
 | Description not provided             | 0.0     | [cpp/projects/newproject](https://github.com/xXDima212DimaXx/cpp1901/tree/master/projects/newproject)     | 00.00.0000 |
 
 ----
-### Useful commands:
+### Useful Github commands:
 ----
 
 - ### Configure Github:
@@ -245,13 +245,14 @@ int main (void)
 
   ----
 
-
 - ### Download files from github
   - #### Download:
     ```
     git clone https://github.com/<USERNAME>/<REPOSITORY_NAME>.git
     ```
 
+----
+### Useful Terminal commands:
 ----
 
 - ### Commands to process files and folders:
@@ -304,6 +305,10 @@ int main (void)
       ```
       ls -la
       ```
+  - #### Copy a file:
+    ```
+    cp <FROM_FILE_PATH> <TO_FILE_PATH>
+    ```
 
 ----
 ### Base C++:
