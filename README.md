@@ -251,12 +251,12 @@ int main (void)
 #include <iostream>
 
 // Other useful libraries
-#include <cstdlib>
-#include <limits>
-#include <cmath>
-#include <cstring>
-#include <ctime>
-#include <fstream>
+#include <cstdlib> // C STD library
+#include <limits> // Numeric limits
+#include <cmath> // Math library
+#include <cstring> // String type library
+#include <ctime> // C++ time library
+#include <fstream> // Filesystem library
 
 //Connect your libraries and .h, .hpp files
 #include 'file1.h'
@@ -338,6 +338,9 @@ int main () {
      * \t = tab
      *
      ******************************************************/
+
+
+
 
     // Random (Require <ctime> library)
     srand(time(NULL));
