@@ -279,7 +279,7 @@ int main (void)
 
   - #### Write to file:
     ```
-    echo "Some text here" <FILENAME>
+    echo "Some text here" >> <FILENAME>
     ```
   - #### Show file content:
     ```
