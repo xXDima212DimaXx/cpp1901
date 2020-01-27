@@ -255,13 +255,21 @@ int main (void)
     ```
     touch <FILENAME>
     ```
+  - #### Create a folder:
+    ```
+    mkdir <FOLDERNAME>
+    ```
   - #### Delete a file:
     ```
     rm <FILENAME>
     ```
+    - #### Delete a folder:
+      ```
+      rmdir <FOLDERNAME>
+      ```
     - #### If folder has subfolders use this command:
       ```
-      rm -rf <FILENAME>
+      rm -rf <FILENAME>/<FOLDERNAME>
       ```
 
   - #### Write to file:
