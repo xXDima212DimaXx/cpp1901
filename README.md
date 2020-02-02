@@ -359,11 +359,11 @@ using namespace std;
 
 // Function prototypes
 
-void Myfunc1 ();
+void myFunc1 ();
 
-int Myfunc2 (int inputvalue);
+int myFunc2 (int input_value);
 
-char Myfunc3 ();
+char myFunc3 ();
 
 
 
@@ -414,7 +414,7 @@ int main () {
      * Cmath operators
      * pow(number, power);
      * mod(number);
-     * cos(numver);
+     * cos(number);
      * sin(number);
      * tg(number);
      * ctg(number);
@@ -493,7 +493,7 @@ int main () {
     }
 
     // Loop while
-    While (/* Condition */) {
+    while (/* Condition */) {
         // Repeats only if condition in the while () = true
     }
 
@@ -570,19 +570,19 @@ int main () {
 
 
 // Void function
-void Myfunc1 () {
+void myFunc1 () {
     // Your code here
     // Void function don't requirs return
 }
 
 // Int function
-int Myfunc2 (int inputvalue) {
+int myFunc2 (int input_value) {
     // Your code here
     return int;
 }
 
 // Char function
-char MyFunc3 () {
+char myFunc3 () {
     // Your code here
     return char;
 }
