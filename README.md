@@ -261,6 +261,11 @@ int main (void)
     git push -u <REMOTE_NAME> <BRANCH_NAME>
     ```
 
+  - #### Sync repository:
+    ```
+    git pull <REMOTE_NAME> <BRANCH_NAME>
+    ```
+
   ----
 
 - ### Download files from github
@@ -747,7 +752,7 @@ int main()
 > 1. [Basic Syntax | Markdown Guide](markdownguide.org/basic-syntax/)
 > 2. [Как "гуглить" правильно и эффективно !](https://masterok.livejournal.com/550154.html)
 > 3. [Поиск в Google, или как правильно гуглить (искать) в интернете: 11 советов](https://yablyk.com/956265-kak-pravilno-guglit-v-internete-10-sovetov/)
-> 4. [NakonechnyiMykhail/cpp1901](https://github.com/NakonechnyiMykhail/cpp1901/tree/master/lesson5)
+> 4. [NakonechnyiMykhail/cpp1901](https://github.com/NakonechnyiMykhail/cpp1901/tree/master)
 > 5. [Как работать с Github репозиториями | Никита Петров](http://nikita-petrov.com/drupal/kak-rabotat-s-github-repozitoriyami)
 > 6. [cplusplus.com - C++ Documentation](http://www.cplusplus.com/reference/cstdlib/)
 
