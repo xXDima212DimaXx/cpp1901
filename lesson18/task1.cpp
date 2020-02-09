@@ -6,7 +6,7 @@
  * Complier: HA-HA-HA
  * [using namespce std]: STD:: down at 3... 2... 1...
  *
- *              *BIG CRASH*
+ *                *BIG CRASH*
  *
  *                  *******
  *               *************
