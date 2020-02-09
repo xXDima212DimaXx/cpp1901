@@ -2,7 +2,26 @@
  *
  * Task 1 Lesson 18
  *
- * NOTE: std:: fucking my brain :) or :(
+ * I: std:: fucking my brain :) or :(
+ * Complier: HA-HA-HA
+ * [using namespce std]: STD:: down at 3... 2... 1...
+ *
+ *              *BIG CRASH*
+ *
+ *                  *******
+ *               *************
+ *              ***************
+ *             *****************
+ *             *****************
+ *             ****  *****  ****
+ *              **    ***    **
+ *                    ***
+ *                    ***
+ *                    ***
+ *                   *****
+ *                  *******
+ *                ***********
+ *             *****************
  *
  *********************************************/
 
@@ -12,11 +31,14 @@
 // Main library
 #include <iostream>
 
-// DEBUG: Жестоко потрахать мозги
+// DEBUG: Когда надоело жить...
 #include <limits>
 
 // Needs for random
 #include <ctime>
+
+// Include getName
+#include "getName.hpp"
 /**************** END CONNECTING LIBRARIES *******************/
 
 
@@ -36,7 +58,7 @@ const int MIN_RANDOM_VALUE = 1;
 
 /******************* BEGIN PROTOTYPES ************************/
 // Get number of chars in name
-int getValueFromUser(char*);
+int getValueFromUser(char*, int get_max_val);
 
 // Get random
 int getRand(int min, int max);
@@ -50,7 +72,7 @@ int main() {
     std::cout << "Enter your name: ";
     std::cin.get(name, MAX_INPUT_VALUE, '\n');
 
-    // Жестоко потрахать мозги
+    // Когда надоело жить...
     if ((std::cin.fail() == 0)) {
         // Continue executing
     } else {
@@ -59,15 +81,33 @@ int main() {
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         std::cout << "Please enter valid name!" << std::endl;
         return -1;
+
+        /*
+                       ___________
+                      /           \
+                      |     |     |
+                      |   --+--   |
+                      |     |     |
+                      |     |     |
+                      |     |     |
+                      |           |
+                      |   R.I.P   |
+                      |           |
+                 -----------------------
+
+
+                 // Program killed by illegal char
+
+        */
     }
 
     // Welcome
     std::cout << "Hello, " << name << "!" << std::endl;
 
     // Sum of chars in name
-    std::cout << "Sum of chars in name is: " << getValueFromUser(name) << std::endl;
+    std::cout << "Sum of chars in name is: " << getValueFromUser(name, MAX_INPUT_VALUE) << std::endl;
 
-    int get_char_count = getValueFromUser(name);
+    int get_char_count = getValueFromUser(name, MAX_INPUT_VALUE);
     int random_array[get_char_count];
 
     /* Debug: Print number of chars in name: Uncomment, if program doesn't work correctly*/
@@ -110,6 +150,24 @@ int main() {
 
     // Finsh
     return 0;
+
+    /***********************************
+     *
+     *  ██  ██  ██  ██  ██  ██  ██
+     *    ██  ██  ██  ██  ██  ██
+     *  ██  ██  ██  ██  ██  ██  ██
+     *    ██  ██  ██  ██  ██  ██
+     *  ██  ██  ██  ██  ██  ██  ██
+     *    ██  ██  ██  ██  ██  ██
+     *  ██  ██  ██  ██  ██  ██  ██
+     *  ██
+     *  ██
+     *  ██
+     *  ██
+     *  ██
+     *  ██
+     *
+     ***********************************/
 }
 /****************** END MAIN FUNCTION ************************/
 
@@ -117,25 +175,6 @@ int main() {
 
 
 /******************** BEGIN FUNCTIONS ************************/
-// Get number of chars in name
-int getValueFromUser(char name[]) {
-    int symbol_count = 0;
-
-    /* Debug: Dispaly name: Uncomment, if program doesn't work correctly */
-    /* std::cout << name << std::endl; */
-
-    for (int i = 0; i < MAX_INPUT_VALUE; i++) {
-        if (name[i]) {
-            symbol_count++;
-        }
-
-        else {
-            break;
-        }
-    }
-
-    return symbol_count;
-}
 
 
 // Get random
