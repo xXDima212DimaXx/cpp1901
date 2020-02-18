@@ -1,0 +1,5 @@
+[
+    {"application.cpp":"text/cpp"},
+    {"libmain.hpp":"text/cpp"},
+    {"application":"exe/p"}
+]
