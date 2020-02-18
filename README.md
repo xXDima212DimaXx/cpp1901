@@ -25,6 +25,8 @@
 | Lesson 16     | Github and Markdown                                    | [cpp1901/lesson16/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson16) | 19.01.2020 |
 | Lesson 17     | Github and Markdown                                    | [cpp1901/lesson17/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson17) | 26.01.2020 |
 | Lesson 18     | Tests                                                  | [cpp1901/lesson18/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson18) | 02.02.2020 |
+| Lesson 19     | Tests                                                  | [cpp1901/lesson19/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson19) | 09.02.2020 |
+| Lesson 20     | Speed computer                                         | [cpp1901/lesson20/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson20) | 16.02.2020 |
 
 ----
 ### Example: Binary Decoder (RU)
