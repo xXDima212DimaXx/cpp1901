@@ -1,5 +1,7 @@
 [
     {"application.cpp":"text/cpp"},
-    {"libmain.hpp":"text/cpp"},
+    {"libheader1.hpp":"text/cpp"},
+    {"libheader2.hpp":"text/cpp"},
+    {"libheader3.hpp":"text/cpp"},
     {"application":"exe/p"}
 ]
