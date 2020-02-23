@@ -1,0 +1,11 @@
+[
+    {
+        "main.cpp":"text/plain",
+        "func1.cpp":"text/plain",
+        "func2.cpp":"text/plain",
+        "func1.o":"application/octet-binary",
+        "func2.o":"application/octet-binary",
+        "main":"application/octet-binary",
+        "application":"application/octet-binary"
+    }
+]

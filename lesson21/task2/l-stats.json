@@ -1,0 +1,16 @@
+[
+    {
+        "main.cpp":"/mnt/sdcard/",
+        "func1.cpp":"/mnt/sdcard/",
+        "func2.cpp":"/mnt/sdcard/",
+        "func1.o":"/system/bin/sh",
+        "func2.o":"/system/bin/sh",
+        "main.o":"/system/bin/sh",
+        "main":"/system/bin/sh",
+        "application":"/system/bin/sh"
+    },
+
+    {
+        "main_lib":"/system/libs/libc++.so"
+    }
+]

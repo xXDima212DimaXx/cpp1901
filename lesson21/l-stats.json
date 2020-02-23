@@ -1,0 +1,11 @@
+[
+    {
+        "task1":"/system/bin/*",
+        "task2":"/system/bin/*",
+        "task3":"/system/bin/*"
+    },
+
+    {
+        "main_lib":"/system/libs/libart.so"
+    }
+]
