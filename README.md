@@ -27,6 +27,7 @@
 | Lesson 18     | Tests                                                  | [cpp1901/lesson18/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson18) | 02.02.2020 |
 | Lesson 19     | Tests                                                  | [cpp1901/lesson19/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson19) | 09.02.2020 |
 | Lesson 20     | Speed computer                                         | [cpp1901/lesson20/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson20) | 16.02.2020 |
+| Lesson 21     | Complie file in multiple files, g++                    | [cpp1901/lesson21/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson21) | 23.02.2020 |
 
 ----
 ### Example: Binary Decoder (RU)
@@ -336,6 +337,21 @@ int main (void)
     cp <FROM_FILE_PATH> <TO_FILE_PATH>
     ```
 
+----
+### Complie files:
+----
+  - #### Typical compiling:
+    ```
+    make <FILE.cpp>
+    ```
+  - #### Compiling struct to multiple files:
+    ```
+    g++ -c <MAIN_FILE> <FILE_1.cpp> ... <FILE_N.cpp>
+    ```
+  - #### Assemble compilied struct:
+    ```
+    g++ -o <OUTPUT_FILE> <MAIN_COMPILIED> <FILE_1_COMPILIED> ... <FILE_N_COMPILIED>
+    ```
 ----
 ### My github repository:
 ----

@@ -1,0 +1,14 @@
+[
+    {
+        "main.cpp":"text/plain",
+        "func.hpp":"text/plain",
+        "calc.hpp":"text/plain",
+        "func.cpp":"text/plain",
+        "calc.cpp":"text/plain",
+        "main":"application/octet-binary",
+        "calc.o":"application/octet-binary",
+        "func.o":"application/octet-binary",
+        "main.o":"application/octet-binary",
+        "application":"application/octet-binary"
+    }
+]

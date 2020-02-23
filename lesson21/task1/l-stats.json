@@ -1,0 +1,12 @@
+[
+    {
+        "main.cpp":"/mnt/sdcard/",
+        "func.hpp":"/mnt/sdcard/",
+        "calc.hpp":"/mnt/sdcard/",
+        "main":"/system/bin/sh"
+    },
+
+    {
+        "main_lib":"/system/libs/libc++.so"
+    }
+]

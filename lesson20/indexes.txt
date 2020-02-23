@@ -1,7 +1,7 @@
 [
-    {"application.cpp":"text/cpp"},
-    {"libheader1.hpp":"text/cpp"},
-    {"libheader2.hpp":"text/cpp"},
-    {"libheader3.hpp":"text/cpp"},
-    {"application":"exe/p"}
+    {"application.cpp":"text/plain"},
+    {"libheader1.hpp":"text/plain"},
+    {"libheader2.hpp":"text/plain"},
+    {"libheader3.hpp":"text/plain"},
+    {"application":"application/octet-binary"}
 ]
