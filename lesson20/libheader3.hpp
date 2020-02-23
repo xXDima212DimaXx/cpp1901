@@ -1,8 +1,6 @@
 #pragma once
 #include "libheader2.hpp"
 
-int getLength();
-
 int average (int speed, int count) {
     int ssumm = 0;
     for (int i = 0; i < count; i++) {
