@@ -9,6 +9,6 @@ std::string func(std::string name);
 int main() {
     string str = "Mike";
     calc();
-    cout << func(str) << endl;;
+    cout << func(str) << endl;
     return 0;
 }

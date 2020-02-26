@@ -1,0 +1,13 @@
+[
+    {
+        "main.cpp":"/mnt/sdcard/",
+        "getInputNumber.hpp":"/mnt/sdcard/",
+        "calc.hpp":"/mnt/sdcard/",
+        "print.hpp":"/mnt/sdcard/",
+        "main":"/system/bin/sh"
+    },
+
+    {
+        "main_lib":"/system/libs/libc++.so"
+    }
+]

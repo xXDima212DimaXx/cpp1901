@@ -1,0 +1,13 @@
+[
+    {
+        "main.cpp":"text/plain",
+        "getInputNumber.cpp":"text/plain",
+        "calc.cpp":"text/plain",
+        "print.cpp":"text/plain",
+        "main.o":"application/octet-binary",
+        "calc.o":"application/octet-binary",
+        "getInputNumber.o":"application/octet-binary",
+        "print.o":"application/octet-binary",
+        "app":"application/octet-binary"
+    }
+]
