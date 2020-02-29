@@ -1,17 +1,17 @@
 #include <iostream>
 
-int pluss(int num1, int num2) {
+double pluss(double num1, double num2) {
     return num1+num2;
 }
 
-int minuss(int num1, int num2) {
+double minuss(double num1, double num2) {
     return num1-num2;
 }
 
-int multiple(int num1, int num2) {
+double multiple(double num1, double num2) {
     return num1*num2;
 }
 
-int divide(int num1, int num2) {
+double divide(double num1, double num2) {
     return num1/num2;
 }

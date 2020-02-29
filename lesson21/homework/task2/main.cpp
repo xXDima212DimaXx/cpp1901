@@ -4,16 +4,16 @@
 using namespace std;
 
 void intro();
-int getInputNumber(int count);
-int pluss(int num1, int num2);
-int minuss(int num1, int num2);
-int multiple(int num1, int num2);
-int divide(int num1, int num2);
+double getInputNumber(int count);
+double pluss(double num1, double num2);
+double minuss(double num1, double num2);
+double multiple(double num1, double num2);
+double divide(double num1, double num2);
 
 int main() {
     intro();
-    int num1 = getInputNumber(1);
-    int num2 = getInputNumber(2);
+    double num1 = getInputNumber(1);
+    double num2 = getInputNumber(2);
 
     /********* BEGIN INPUT BUGFIX **********/
     char mOperator[1];

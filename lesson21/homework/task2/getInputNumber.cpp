@@ -1,8 +1,8 @@
 #include <iostream>
 #include <limits>
 
-int getInputNumber (int count) {
-    int number = 0;
+double getInputNumber (int count) {
+    double number = 0;
     std::cout << "\tEnter a " << count << " number: ";
     std::cin >> number;
 

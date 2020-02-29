@@ -4,9 +4,9 @@
 #include <iostream>
 #include <limits>
 
-int getInputNumber (int count) {
-    int number = 0;
-    std::cout << "\tEnter a " << count << " number: ";
+double getInputNumber (int count) {
+    double number = 0;
+    std::cout << "\tEnter a " << count << " number (from -2147483648 to 2147483747): ";
     std::cin >> number;
 
     /********* BEGIN INPUT BUGFIX **********/

@@ -7,8 +7,8 @@ using namespace std;
 
 int main() {
     intro();
-    int num1 = getInputNumber(1);
-    int num2 = getInputNumber(2);
+    double num1 = getInputNumber(1);
+    double num2 = getInputNumber(2);
 
     /********* BEGIN INPUT BUGFIX **********/
     char mOperator[1];
