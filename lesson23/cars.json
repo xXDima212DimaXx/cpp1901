@@ -1,0 +1,13 @@
+[
+	{
+		"Marka":"s",
+		"Speed":"5",
+		"Type":"s"
+	},
+
+	{
+		"Marka":"f",
+		"Speed":"78",
+		"Type":"d"
+	}
+]

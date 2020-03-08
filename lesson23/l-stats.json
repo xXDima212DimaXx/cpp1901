@@ -1,0 +1,11 @@
+[
+    {
+        "main.cpp":"/system/bin/*",
+        "struct.hpp":"/system/bin/*"
+        "main":"/system/bin/sh"
+    },
+
+    {
+        "main_lib":"/system/libs/libc++.so"
+    }
+]
