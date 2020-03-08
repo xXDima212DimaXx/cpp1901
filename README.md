@@ -28,6 +28,7 @@
 | Lesson 19     | Tests                                                  | [cpp1901/lesson19/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson19) | 09.02.2020 |
 | Lesson 20     | Speed computer                                         | [cpp1901/lesson20/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson20) | 16.02.2020 |
 | Lesson 21     | Complie file in multiple files, g++                    | [cpp1901/lesson21/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson21) | 23.02.2020 |
+| Lesson 22     | Complie file in multiple files, g++                    | [cpp1901/lesson22/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson22) | 01.03.2020 |
 
 ----
 ### Example: Binary Decoder (RU)
