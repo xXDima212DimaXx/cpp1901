@@ -385,7 +385,7 @@ int main (void)
 // Execute this code once (e.g if you connect files, which contain same functions)
 #pragma once
 
-// You can implement cinst here
+// You can implement const here
 const int INTVALUE = 4545;
 
 // Namespace STD
