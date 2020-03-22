@@ -30,6 +30,8 @@
 | Lesson 21     | Complie file in multiple files, g++                    | [cpp1901/lesson21/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson21) | 23.02.2020 |
 | Lesson 22     | Complie file in multiple files, g++                    | [cpp1901/lesson22/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson22) | 01.03.2020 |
 | Lesson 23     | Structures                                             | [cpp1901/lesson23/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson23) | 08.03.2020 |
+| Lesson 24     | Description not provided                               | -             | 15.03.2020 |
+| Lesson 25     | Links and pointers                                     | [cpp1901/lesson25/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson25) | 22.03.2020 |
 
 ----
 ### Example: Binary Decoder (RU)
