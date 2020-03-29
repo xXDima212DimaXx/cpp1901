@@ -1,6 +1,8 @@
 #ifndef BANK_HPP
 #define BANK_HPP
+#include <iostream>
 #include <string>
+#include <vector>
 #include "date.hpp"
 #include "email.hpp"
 #include "work.hpp"
@@ -12,9 +14,10 @@ typedef struct
     std::string name;
     std::string surname;
     std::string middlename;
+    int age;
     date birthday;
-    email emailaddress;
-
+    email mail;
+    std::vector <std::string> property;
     bool married;
     enum Children {
         CHILD_ZERO,
@@ -22,6 +25,7 @@ typedef struct
         CHILD_TWO,
         CHILD_THREE,
         CHILD_FOUR,
+        CHILD_FIVE,
     };
     work workplace;
     money income;
