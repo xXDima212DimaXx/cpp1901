@@ -16,7 +16,13 @@ typedef struct
     email emailaddress;
 
     bool married;
-
+    enum Children {
+        CHILD_ZERO,
+        CHILD_ONE,
+        CHILD_TWO,
+        CHILD_THREE,
+        CHILD_FOUR,
+    };
     work workplace;
     money income;
     credit creditsum;
