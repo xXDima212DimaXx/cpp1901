@@ -1,4 +1,4 @@
-#ifndef STRUCE_HPP
+#ifndef STRUCT_HPP
 #define STRUCT_HPP
 #include <string>
 
