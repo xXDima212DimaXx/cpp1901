@@ -18,7 +18,7 @@ typedef struct
     date birthday;
     email mail;
     std::vector <std::string> property;
-    bool married;
+    std::string married;
     enum Children {
         CHILD_ZERO,
         CHILD_ONE,
