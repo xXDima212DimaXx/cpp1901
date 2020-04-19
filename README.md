@@ -5,33 +5,37 @@
 ----
 ### Lessons:
 ----
-| Lesson №      | Name                                                   | Path          | TIMESTAMP  |
-|---------------|:-------------------------------------------------------|:--------------|:----------:|
-| Lesson 1      | Introduction to C++, Hello, world                      | [cpp1901/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson1)  | 22.09.2019 |
-| Lesson 2      | Arrays, tasks                                          | [cpp1901/lesson2/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson2)  | 29.09.2019 |
-| Lesson 3      | Types of data                                          | [cpp1901/lesson3/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson3)  | 06.10.2019 |
-| Lesson 4      | Math in C++                                            | [cpp1901/lesson4/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson4)  | 13.10.2019 |
-| Lesson 5      | Math functions                                         | [cpp1901/lesson5/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson5)  | 20.10.2019 |
-| Lesson 6      | C++ Functions                                          | [cpp1901/lesson6/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson6)  | 27.10.2019 |
-| Lesson 7      | Tasks, Money converter                                 | [cpp1901/lesson7/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson7)  | 03.11.2019 |
-| Lesson 8      | Description not provided                               | -             | 10.11.2019 |
-| Lesson 9      | Strictures in C++, compiling program as multiple files | [cpp1901/lesson9/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson9)  | 17.11.2019 |
-| Lesson 10     | Boolalpha                                              | [cpp1901/lesson10/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson10) | 24.11.2019 |
-| Lesson 11     | Translate integers, binary, decimal, hexdecimal        | [cpp1901/lesson11/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson12) | 01.12.2019 |
-| Lesson 12     | Repeat arrays                                          | [cpp1901/lesson12/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson12) | 08.12.2019 |
-| Lesson 13     | 2D arrays                                              | [cpp1901/lesson13/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson13) | 15.12.2019 |
-| Lesson 14     | Description not provided                               | -             | 22.12.2019 |
-| Lesson 15     | Exams                                                  | [cpp1901/lesson15/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson15) | 29.12.2019 |
-| Lesson 16     | Github and Markdown                                    | [cpp1901/lesson16/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson16) | 19.01.2020 |
-| Lesson 17     | Github and Markdown                                    | [cpp1901/lesson17/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson17) | 26.01.2020 |
-| Lesson 18     | Tests                                                  | [cpp1901/lesson18/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson18) | 02.02.2020 |
-| Lesson 19     | Tests                                                  | [cpp1901/lesson19/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson19) | 09.02.2020 |
-| Lesson 20     | Speed computer                                         | [cpp1901/lesson20/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson20) | 16.02.2020 |
-| Lesson 21     | Complie file in multiple files, g++                    | [cpp1901/lesson21/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson21) | 23.02.2020 |
-| Lesson 22     | Complie file in multiple files, g++                    | [cpp1901/lesson22/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson22) | 01.03.2020 |
-| Lesson 23     | Structures                                             | [cpp1901/lesson23/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson23) | 08.03.2020 |
-| Lesson 24     | Description not provided                               | -             | 15.03.2020 |
-| Lesson 25     | Links and pointers                                     | [cpp1901/lesson25/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson25) | 22.03.2020 |
+| Lesson №      | Name                                                                  | Path                                                                                 | TIMESTAMP  |
+|---------------|:----------------------------------------------------------------------|:-------------------------------------------------------------------------------------|:----------:|
+| Lesson 1      | Introduction to C++, Hello, world                                     | [cpp1901/lesson1/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson1)   | 22.09.2019 |
+| Lesson 2      | Arrays, tasks                                                         | [cpp1901/lesson2/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson2)   | 29.09.2019 |
+| Lesson 3      | Types of data                                                         | [cpp1901/lesson3/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson3)   | 06.10.2019 |
+| Lesson 4      | Math in C++                                                           | [cpp1901/lesson4/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson4)   | 13.10.2019 |
+| Lesson 5      | Math functions                                                        | [cpp1901/lesson5/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson5)   | 20.10.2019 |
+| Lesson 6      | C++ Functions                                                         | [cpp1901/lesson6/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson6)   | 27.10.2019 |
+| Lesson 7      | Tasks, Money converter                                                | [cpp1901/lesson7/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson7)   | 03.11.2019 |
+| Lesson 8      | Description not provided                                              | -                                                                                    | 10.11.2019 |
+| Lesson 9      | Strictures in C++, compiling program as multiple files                | [cpp1901/lesson9/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson9)   | 17.11.2019 |
+| Lesson 10     | Boolalpha                                                             | [cpp1901/lesson10/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson10) | 24.11.2019 |
+| Lesson 11     | Translate integers, binary, decimal, hexdecimal                       | [cpp1901/lesson11/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson12) | 01.12.2019 |
+| Lesson 12     | Repeat arrays                                                         | [cpp1901/lesson12/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson12) | 08.12.2019 |
+| Lesson 13     | 2D arrays                                                             | [cpp1901/lesson13/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson13) | 15.12.2019 |
+| Lesson 14     | Description not provided                                              | -                                                                                    | 22.12.2019 |
+| Lesson 15     | Exams                                                                 | [cpp1901/lesson15/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson15) | 29.12.2019 |
+| Lesson 16     | Github and Markdown                                                   | [cpp1901/lesson16/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson16) | 19.01.2020 |
+| Lesson 17     | Github and Markdown                                                   | [cpp1901/lesson17/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson17) | 26.01.2020 |
+| Lesson 18     | Tests                                                                 | [cpp1901/lesson18/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson18) | 02.02.2020 |
+| Lesson 19     | Tests                                                                 | [cpp1901/lesson19/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson19) | 09.02.2020 |
+| Lesson 20     | Speed computer                                                        | [cpp1901/lesson20/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson20) | 16.02.2020 |
+| Lesson 21     | Complie file in multiple files, g++                                   | [cpp1901/lesson21/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson21) | 23.02.2020 |
+| Lesson 22     | Complie file in multiple files, g++                                   | [cpp1901/lesson22/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson22) | 01.03.2020 |
+| Lesson 23     | Structures                                                            | [cpp1901/lesson23/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson23) | 08.03.2020 |
+| Lesson 24     | Description not provided                                              | -                                                                                    | 15.03.2020 |
+| Lesson 25     | Links and pointers                                                    | [cpp1901/lesson25/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson25) | 22.03.2020 |
+| Lesson 26     | Dynamic arrays and loop forEach                                       | [cpp1901/lesson26/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson26) | 29.03.2020 |
+| Lesson 27     | Repeat dynamic arrays                                                 | [cpp1901/lesson27/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson27) | 05.04.2020 |
+| Lesson 28     | Validating input through cin.fail, ternar operators, inline functions | [cpp1901/lesson28/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson28) | 12.04.2020 |
+| Lesson 29     | Fibonacci, indexes (increment & decrement), cstdint library           | [cpp1901/lesson29/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson29) | 19.04.2020 |
 
 ----
 ### Example: Binary Decoder (RU)
