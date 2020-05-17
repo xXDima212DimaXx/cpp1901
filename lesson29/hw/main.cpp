@@ -7,7 +7,7 @@ int comp(int a, int b);
 int factorial(int n);
 int summa(int n);
 int recur(int n);
-int recnum(int n);
+int recnum(int n, int i);
 int bin(int n);
 
 // ===== BEGIN TASK 1 =====
@@ -151,17 +151,8 @@ void task5() {
 
 // ===== BEGIN TASK 6 =====
 // For task 6
-int recnum(int n) {
-    if (n <= 0) {
-        std::cout << "0";
-    } else if (n == 1) {
-        std::cout << "1";
-    } else if (n < 10) {
-        std::cout << n;
-    } else {
-        std::cout << n%10;
-        recnum(n/10);
-    }
+int recnum(int n, int i) {
+    return (n == 0) ? i : recnum(n/10, i*10 + n%10);
 }
 
 void task6() {
@@ -170,7 +161,7 @@ void task6() {
     std::cout << "Enter N: ";
     int n6;
     std::cin >> n6;
-    recnum(n6);
+    std::cout << recnum(n6, 0);
     std::cout << std::endl;
 }
 // ===== END TASK 6 =====

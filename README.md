@@ -564,6 +564,18 @@ int main () {
         file.close();
     } else cout << "unable to open file";
 
+    // OR
+
+    std::ofstream outfile("FileName.txt");
+
+    if(!outfile) {
+        std::cerr << "File system not readable or you don't have right permissions to modify this file" << std::endl;
+        exit(1);
+    } else {
+        outfile << "Data" << std::endl;
+    }
+
+
 
 
 
@@ -577,6 +589,22 @@ int main () {
         cout << data << endl;
         file.close();
     } else cout << "unable to open file";
+
+    // OR
+
+    std::ifstream infile("FileName.txt");
+
+    if(!infile) {
+        std::cerr << "File system not readable or you don't have right permissions to modify this file" << std::endl;
+        exit(1);
+    } else {
+        while(infile) {
+            std::string strInput;
+            // infile >> strInput;
+            getline(infile, strInput);
+            std::cout << strInput << std::endl;
+        }
+    }
 
 
 
