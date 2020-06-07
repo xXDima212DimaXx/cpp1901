@@ -36,6 +36,13 @@
 | Lesson 27     | Repeat dynamic arrays                                                 | [cpp1901/lesson27/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson27) | 05.04.2020 |
 | Lesson 28     | Validating input through cin.fail, ternar operators, inline functions | [cpp1901/lesson28/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson28) | 12.04.2020 |
 | Lesson 29     | Fibonacci, indexes (increment & decrement), cstdint library           | [cpp1901/lesson29/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson29) | 19.04.2020 |
+| Lesson 30     | Operations with file system                                           | [cpp1901/lesson30/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson30) | 26.04.2020 |
+| Lesson 31     | Clases                                                                | [cpp1901/lesson21/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson31) | 03.05.2020 |
+| Lesson 32     | Description not provided                                              | -                                                                                    | 10.05.2020 |
+| Lesson 33     | Description not provided                                              | -                                                                                    | 17.05.2020 |
+| Lesson 34     | OOP                                                                   | [cpp1901/lesson34/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson34) | 24.05.2020 |
+| Lesson 35     | OOP                                                                   | [cpp1901/lesson35/](https://github.com/xXDima212DimaXx/cpp1901/tree/master/lesson35) | 31.05.2020 |
+| Lesson 36     | Summarizing                                                           | -                                                                                    | 07.06.2020 |
 
 ----
 ### Example: Binary Decoder (RU)
